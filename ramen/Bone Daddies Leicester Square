@@ -1,78 +1,138 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Bone Daddies Leicester Square — Tabemon</title>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BONE DADDIES — LEICESTER SQUARE | Tabemon</title>
 </head>
 
-<body style="font-family: Arial; max-width: 700px; margin: 40px auto; line-height: 1.6;">
+<body style="font-family: Arial, sans-serif; max-width: 820px; margin: 28px auto; padding: 0 14px; line-height: 1.6;">
 
-<a href="../index.html">← Back to homepage</a>
+  <!-- Top nav -->
+  <div style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;">
+    <a href="../index.html" style="text-decoration:none;">← Back to home</a>
+    <div style="font-size: 14px; opacity: 0.75;">
+      Category: <a href="../index.html#[CATEGORY-ANCHOR]" style="text-decoration:none;">[CATEGORY]</a>
+    </div>
+  </div>
 
-<h1>Bone Daddies — Leicester Square</h1>
+  <hr style="margin: 16px 0;">
 
-<p>
-<strong>Category:</strong> Ramen<br>
-<strong>Area:</strong> Leicester Square<br>
-<strong>Visited:</strong> February 2026<br>
-<strong>Price:</strong> £15–£18<br>
-<strong>Rating:</strong> 7.5/10
-</p>
+  <!-- Title -->
+  <h1 style="margin: 8px 0 6px;">[PLACE NAME] — [AREA]</h1>
 
-<hr>
+  <!-- Quick facts -->
+  <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 12px; border: 1px solid #ddd; border-radius: 12px;">
+    <div><strong>Category:</strong> Ramen</div>
+    <div><strong>Area:</strong> Central</div>
+    <div><strong>Price:</strong> ££ (typical spend: £20-£25)</div>
+    <div><strong>Wait time:</strong> Bookings / Walk-in</div>
+    <div><strong>Overall:</strong> <strong>7.8/10</strong></div>
+  </div>
 
-<h2>Overview</h2>
+  <!-- Hero image (optional) -->
+  <!-- Put your best photo here. Make sure the filename exists in /images/ -->
+  <div style="margin: 16px 0;">
+    <img src="images/ramen/BoneDaddiesLeicester/food.heic" alt="Full Order" style="width:100%; border-radius: 12px;">
+    <div style="font-size: 12px; opacity: 0.7; margin-top: 6px;">Photo: Full order</div>
+  </div>
 
-<p>
-Bone Daddies is a well-known London ramen chain located just off Leicester Square.
-The atmosphere is energetic and loud, with fast service and strong flavours.
-</p>
+  <!-- Gallery (optional) -->
+  <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 14px 0;">
+    <img src="../images/[IMG-1].jpg" alt="[alt text]" style="width:100%; border-radius:12px;">
+    <img src="../images/[IMG-2].jpg" alt="[alt text]" style="width:100%; border-radius:12px;">
+  </div>
 
-<h2>Broth</h2>
+  <hr style="margin: 18px 0;">
 
-<p>
-Rich and salty tonkotsu broth with strong umami. Slightly heavier than traditional Hakata style.
-</p>
+  <!-- Standardised scores -->
+  <h2 style="margin: 10px 0;">Scores</h2>
 
-<h2>Noodles</h2>
+  <table style="width:100%; border-collapse: collapse;">
+    <tr>
+      <td style="padding:8px 0; border-bottom:1px solid #eee;"><strong>Food quality</strong></td>
+      <td style="padding:8px 0; border-bottom:1px solid #eee; text-align:right;">[__/10]</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 0; border-bottom:1px solid #eee;"><strong>Signature / Core item</strong> (broth/fish/grill/experience)</td>
+      <td style="padding:8px 0; border-bottom:1px solid #eee; text-align:right;">[__/10]</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 0; border-bottom:1px solid #eee;"><strong>Variety</strong> (menu range / options)</td>
+      <td style="padding:8px 0; border-bottom:1px solid #eee; text-align:right;">[__/10]</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 0; border-bottom:1px solid #eee;"><strong>Drinks & extras</strong> (sake/highballs/desserts/sides)</td>
+      <td style="padding:8px 0; border-bottom:1px solid #eee; text-align:right;">[__/10]</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 0; border-bottom:1px solid #eee;"><strong>Service</strong></td>
+      <td style="padding:8px 0; border-bottom:1px solid #eee; text-align:right;">[__/10]</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 0; border-bottom:1px solid #eee;"><strong>Atmosphere</strong> (vibe/noise/cleanliness)</td>
+      <td style="padding:8px 0; border-bottom:1px solid #eee; text-align:right;">[__/10]</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 0; border-bottom:1px solid #eee;"><strong>Seating & comfort</strong> (space/queue/table comfort)</td>
+      <td style="padding:8px 0; border-bottom:1px solid #eee; text-align:right;">[__/10]</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 0;"><strong>Value for money</strong></td>
+      <td style="padding:8px 0; text-align:right;">[__/10]</td>
+    </tr>
+  </table>
 
-<p>
-Good firmness and texture. Holds up well in the broth.
-</p>
+  <hr style="margin: 18px 0;">
 
-<h2>Toppings</h2>
+  <!-- The write-up -->
+  <h2>Overview</h2>
+  <p>
+    [2–4 sentences: what it is, why you went, what stood out, the “headline”.]
+  </p>
 
-<p>
-Chashu is flavourful but thinner than premium ramen specialists. Egg is well marinated.
-</p>
+  <h2>What I ordered / did</h2>
+  <ul>
+    <li>[Dish / item 1] — [quick note]</li>
+    <li>[Dish / item 2] — [quick note]</li>
+    <li>[Drink / side] — [quick note]</li>
+  </ul>
 
-<h2>Atmosphere</h2>
+  <h2>Highlights</h2>
+  <ul>
+    <li>[Highlight 1]</li>
+    <li>[Highlight 2]</li>
+    <li>[Highlight 3]</li>
+  </ul>
 
-<p>
-Busy, loud, and casual. More modern London ramen vibe rather than traditional Japanese setting.
-</p>
+  <h2>What could be better</h2>
+  <ul>
+    <li>[Downside 1]</li>
+    <li>[Downside 2]</li>
+  </ul>
 
-<h2>Verdict</h2>
+  <h2>Practical details</h2>
+  <ul>
+    <li><strong>Best time to go:</strong> [e.g. weekday 5–6pm]</li>
+    <li><strong>Booking vs walk-in:</strong> [e.g. walk-in fine / book ahead]</li>
+    <li><strong>Dietary:</strong> [veg options? halal?]</li>
+    <li><strong>Accessibility:</strong> [stairs? tight seating?]</li>
+  </ul>
 
-<p>
-Solid ramen option in central London. Convenient location, strong flavours, but not the most authentic compared to specialist shops.
-</p>
+  <h2>Verdict</h2>
+  <p>
+    <strong>Who it’s for:</strong> [solo lunch / date / group / quick central meal]<br>
+    <strong>Return?</strong> [Yes / Maybe / No]<br>
+    <strong>Best order:</strong> [one line recommendation]
+  </p>
 
-<hr>
+  <hr style="margin: 18px 0;">
 
-<p>
-<strong>Pros:</strong><br>
-• Strong flavour<br>
-• Central location<br>
-• Fast service
-</p>
-
-<p>
-<strong>Cons:</strong><br>
-• Slightly too salty<br>
-• Less refined than top-tier ramen spots
-</p>
+  <!-- Links (optional but useful) -->
+  <p style="font-size:14px;">
+    <strong>Map:</strong> <a href="[GOOGLE MAPS LINK]" target="_blank" rel="noopener noreferrer">Open in Google Maps</a><br>
+    <strong>Website/Instagram:</strong> <a href="[LINK]" target="_blank" rel="noopener noreferrer">Link</a>
+  </p>
 
 </body>
 </html>
-
