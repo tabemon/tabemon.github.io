@@ -1,0 +1,51 @@
+/* Tell the browser we support both schemes (also helps form controls) */
+:root { color-scheme: light dark; }
+
+/* Light mode defaults */
+:root{
+  --bg: #ffffff;
+  --text: #111111;
+  --muted: rgba(0,0,0,.65);
+  --card: #f6f6f6;
+  --border: #e6e6e6;
+  --link: #0b57d0;
+  --link-hover: #0842a0;
+}
+
+/* Dark mode overrides */
+@media (prefers-color-scheme: dark) {
+  :root{
+    --bg: #0b0f14;
+    --text: #e7edf3;
+    --muted: rgba(231,237,243,.70);
+    --card: #121a24;
+    --border: #223042;
+    --link: #79b8ff;
+    --link-hover: #a7d1ff;
+  }
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a { color: var(--link); }
+a:hover { color: var(--link-hover); }
+
+hr { border: none; border-top: 1px solid var(--border); }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.small-muted { font-size: 14px; color: var(--muted); }
+
+img { max-width: 100%; height: auto; }
